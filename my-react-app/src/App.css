@@ -195,6 +195,19 @@ h2 {
   opacity: 1;
 }
 
+.btn-load {
+  background-color: rgba(249, 211, 180, 1);
+  color: #212426;
+  padding: 16px 32px;
+  border-radius: 6px;
+  font-size: 24px;
+}
+
+.btn-load:hover {
+  background-color: rgba(249, 211, 180, 0.8);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     padding: 4rem 2rem;
